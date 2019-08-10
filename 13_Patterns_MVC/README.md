@@ -22,6 +22,10 @@ ViewController
 
 Model
     Task
+    
+ViewModel
+    TableView Datasource
+    TableView Property (rowHeight)
 
 View
     TaskCell
