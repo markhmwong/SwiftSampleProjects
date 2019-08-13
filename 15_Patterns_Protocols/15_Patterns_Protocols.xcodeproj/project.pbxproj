@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D5C4A1A2302D3B200E42F48 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5C4A192302D3B200E42F48 /* TaskCell.swift */; };
 		4D8975B122FEEBB10033AC9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8975B022FEEBB10033AC9B /* AppDelegate.swift */; };
 		4D8975B322FEEBB10033AC9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8975B222FEEBB10033AC9B /* ViewController.swift */; };
 		4D8975B622FEEBB10033AC9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8975B422FEEBB10033AC9B /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		4D8975BE22FEEBB20033AC9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8975BC22FEEBB20033AC9B /* LaunchScreen.storyboard */; };
 		4D8975C922FEEBB20033AC9B /* _4_Patterns_MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8975C822FEEBB20033AC9B /* _4_Patterns_MVVMTests.swift */; };
 		4D8975D422FEEBB20033AC9B /* _4_Patterns_MVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8975D322FEEBB20033AC9B /* _4_Patterns_MVVMUITests.swift */; };
-		4D8975E422FEEBEC0033AC9B /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8975E322FEEBEC0033AC9B /* TaskCell.swift */; };
 		4D8975E722FEEBF00033AC9B /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8975E622FEEBF00033AC9B /* Task.swift */; };
 		4D8975EA22FEEC030033AC9B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4D8975E922FEEC030033AC9B /* README.md */; };
 		4D8975ED22FEF0660033AC9B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8975EC22FEF0660033AC9B /* ViewModel.swift */; };
@@ -39,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D5C4A192302D3B200E42F48 /* TaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 		4D8975AD22FEEBB10033AC9B /* 14_Patterns_MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 14_Patterns_MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8975B022FEEBB10033AC9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D8975B222FEEBB10033AC9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,7 +54,6 @@
 		4D8975CF22FEEBB20033AC9B /* 14_Patterns_MVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 14_Patterns_MVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8975D322FEEBB20033AC9B /* _4_Patterns_MVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _4_Patterns_MVVMUITests.swift; sourceTree = "<group>"; };
 		4D8975D522FEEBB20033AC9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D8975E322FEEBEC0033AC9B /* TaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 		4D8975E622FEEBF00033AC9B /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		4D8975E922FEEC030033AC9B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../13_Patterns_MVC/README.md; sourceTree = "<group>"; };
 		4D8975EC22FEF0660033AC9B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
@@ -84,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D5C4A182302D3B200E42F48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D5C4A192302D3B200E42F48 /* TaskCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		4D8975A422FEEBB10033AC9B = {
 			isa = PBXGroup;
 			children = (
@@ -111,8 +119,8 @@
 				4D8975EB22FEF0530033AC9B /* ViewModel */,
 				4D8975E822FEEBFA0033AC9B /* App Delegate */,
 				4D8975E122FEEBDF0033AC9B /* Controller */,
-				4D8975E222FEEBEC0033AC9B /* View */,
 				4D8975E522FEEBF00033AC9B /* Model */,
+				4D5C4A182302D3B200E42F48 /* View */,
 				4D8975B422FEEBB10033AC9B /* Main.storyboard */,
 				4D8975BA22FEEBB20033AC9B /* Assets.xcassets */,
 				4D8975BC22FEEBB20033AC9B /* LaunchScreen.storyboard */,
@@ -146,15 +154,6 @@
 				4D8975B222FEEBB10033AC9B /* ViewController.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		4D8975E222FEEBEC0033AC9B /* View */ = {
-			isa = PBXGroup;
-			children = (
-				4D8975E322FEEBEC0033AC9B /* TaskCell.swift */,
-			);
-			name = View;
-			path = ../../13_Patterns_MVC/13_Patterns_MVC/View;
 			sourceTree = "<group>";
 		};
 		4D8975E522FEEBF00033AC9B /* Model */ = {
@@ -314,11 +313,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D8975E422FEEBEC0033AC9B /* TaskCell.swift in Sources */,
 				4D8975B322FEEBB10033AC9B /* ViewController.swift in Sources */,
 				4D8975E722FEEBF00033AC9B /* Task.swift in Sources */,
 				4D8975B122FEEBB10033AC9B /* AppDelegate.swift in Sources */,
 				4D8975ED22FEF0660033AC9B /* ViewModel.swift in Sources */,
+				4D5C4A1A2302D3B200E42F48 /* TaskCell.swift in Sources */,
 				4D8975B922FEEBB10033AC9B /* _4_Patterns_MVVM.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
