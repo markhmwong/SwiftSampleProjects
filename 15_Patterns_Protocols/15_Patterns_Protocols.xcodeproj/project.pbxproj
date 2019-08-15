@@ -19,6 +19,7 @@
 		4D8975E722FEEBF00033AC9B /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8975E622FEEBF00033AC9B /* Task.swift */; };
 		4D8975EA22FEEC030033AC9B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4D8975E922FEEC030033AC9B /* README.md */; };
 		4D8975ED22FEF0660033AC9B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8975EC22FEF0660033AC9B /* ViewModel.swift */; };
+		4DDCDBFA2305358D00D2688B /* CellRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDCDBF92305358D00D2688B /* CellRepresentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,7 @@
 
 /* Begin PBXFileReference section */
 		4D5C4A192302D3B200E42F48 /* TaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
-		4D8975AD22FEEBB10033AC9B /* 14_Patterns_MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 14_Patterns_MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D8975AD22FEEBB10033AC9B /* 15_Patterns_Protocols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 15_Patterns_Protocols.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8975B022FEEBB10033AC9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D8975B222FEEBB10033AC9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D8975B522FEEBB10033AC9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,15 +49,16 @@
 		4D8975BA22FEEBB20033AC9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D8975BD22FEEBB20033AC9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D8975BF22FEEBB20033AC9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D8975C422FEEBB20033AC9B /* 14_Patterns_MVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 14_Patterns_MVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D8975C422FEEBB20033AC9B /* 15_Patterns_ProtocolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 15_Patterns_ProtocolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8975C822FEEBB20033AC9B /* _4_Patterns_MVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _4_Patterns_MVVMTests.swift; sourceTree = "<group>"; };
 		4D8975CA22FEEBB20033AC9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D8975CF22FEEBB20033AC9B /* 14_Patterns_MVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 14_Patterns_MVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D8975CF22FEEBB20033AC9B /* 15_Patterns_ProtocolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 15_Patterns_ProtocolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8975D322FEEBB20033AC9B /* _4_Patterns_MVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _4_Patterns_MVVMUITests.swift; sourceTree = "<group>"; };
 		4D8975D522FEEBB20033AC9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D8975E622FEEBF00033AC9B /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		4D8975E922FEEC030033AC9B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../13_Patterns_MVC/README.md; sourceTree = "<group>"; };
 		4D8975EC22FEF0660033AC9B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		4DDCDBF92305358D00D2688B /* CellRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellRepresentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,9 +108,9 @@
 		4D8975AE22FEEBB10033AC9B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D8975AD22FEEBB10033AC9B /* 14_Patterns_MVVM.app */,
-				4D8975C422FEEBB20033AC9B /* 14_Patterns_MVVMTests.xctest */,
-				4D8975CF22FEEBB20033AC9B /* 14_Patterns_MVVMUITests.xctest */,
+				4D8975AD22FEEBB10033AC9B /* 15_Patterns_Protocols.app */,
+				4D8975C422FEEBB20033AC9B /* 15_Patterns_ProtocolsTests.xctest */,
+				4D8975CF22FEEBB20033AC9B /* 15_Patterns_ProtocolsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,6 +118,7 @@
 		4D8975AF22FEEBB10033AC9B /* 14_Patterns_MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				4DDCDBF82305357B00D2688B /* Protocols */,
 				4D8975EB22FEF0530033AC9B /* ViewModel */,
 				4D8975E822FEEBFA0033AC9B /* App Delegate */,
 				4D8975E122FEEBDF0033AC9B /* Controller */,
@@ -181,12 +184,20 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		4DDCDBF82305357B00D2688B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4DDCDBF92305358D00D2688B /* CellRepresentable.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4D8975AC22FEEBB10033AC9B /* 14_Patterns_MVVM */ = {
+		4D8975AC22FEEBB10033AC9B /* 15_Patterns_Protocols */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D8975D822FEEBB20033AC9B /* Build configuration list for PBXNativeTarget "14_Patterns_MVVM" */;
+			buildConfigurationList = 4D8975D822FEEBB20033AC9B /* Build configuration list for PBXNativeTarget "15_Patterns_Protocols" */;
 			buildPhases = (
 				4D8975A922FEEBB10033AC9B /* Sources */,
 				4D8975AA22FEEBB10033AC9B /* Frameworks */,
@@ -196,14 +207,14 @@
 			);
 			dependencies = (
 			);
-			name = 14_Patterns_MVVM;
+			name = 15_Patterns_Protocols;
 			productName = 14_Patterns_MVVM;
-			productReference = 4D8975AD22FEEBB10033AC9B /* 14_Patterns_MVVM.app */;
+			productReference = 4D8975AD22FEEBB10033AC9B /* 15_Patterns_Protocols.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4D8975C322FEEBB20033AC9B /* 14_Patterns_MVVMTests */ = {
+		4D8975C322FEEBB20033AC9B /* 15_Patterns_ProtocolsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D8975DB22FEEBB20033AC9B /* Build configuration list for PBXNativeTarget "14_Patterns_MVVMTests" */;
+			buildConfigurationList = 4D8975DB22FEEBB20033AC9B /* Build configuration list for PBXNativeTarget "15_Patterns_ProtocolsTests" */;
 			buildPhases = (
 				4D8975C022FEEBB20033AC9B /* Sources */,
 				4D8975C122FEEBB20033AC9B /* Frameworks */,
@@ -214,14 +225,14 @@
 			dependencies = (
 				4D8975C622FEEBB20033AC9B /* PBXTargetDependency */,
 			);
-			name = 14_Patterns_MVVMTests;
+			name = 15_Patterns_ProtocolsTests;
 			productName = 14_Patterns_MVVMTests;
-			productReference = 4D8975C422FEEBB20033AC9B /* 14_Patterns_MVVMTests.xctest */;
+			productReference = 4D8975C422FEEBB20033AC9B /* 15_Patterns_ProtocolsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4D8975CE22FEEBB20033AC9B /* 14_Patterns_MVVMUITests */ = {
+		4D8975CE22FEEBB20033AC9B /* 15_Patterns_ProtocolsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D8975DE22FEEBB20033AC9B /* Build configuration list for PBXNativeTarget "14_Patterns_MVVMUITests" */;
+			buildConfigurationList = 4D8975DE22FEEBB20033AC9B /* Build configuration list for PBXNativeTarget "15_Patterns_ProtocolsUITests" */;
 			buildPhases = (
 				4D8975CB22FEEBB20033AC9B /* Sources */,
 				4D8975CC22FEEBB20033AC9B /* Frameworks */,
@@ -232,9 +243,9 @@
 			dependencies = (
 				4D8975D122FEEBB20033AC9B /* PBXTargetDependency */,
 			);
-			name = 14_Patterns_MVVMUITests;
+			name = 15_Patterns_ProtocolsUITests;
 			productName = 14_Patterns_MVVMUITests;
-			productReference = 4D8975CF22FEEBB20033AC9B /* 14_Patterns_MVVMUITests.xctest */;
+			productReference = 4D8975CF22FEEBB20033AC9B /* 15_Patterns_ProtocolsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -260,7 +271,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4D8975A822FEEBB10033AC9B /* Build configuration list for PBXProject "14_Patterns_MVVM" */;
+			buildConfigurationList = 4D8975A822FEEBB10033AC9B /* Build configuration list for PBXProject "15_Patterns_Protocols" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -273,9 +284,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D8975AC22FEEBB10033AC9B /* 14_Patterns_MVVM */,
-				4D8975C322FEEBB20033AC9B /* 14_Patterns_MVVMTests */,
-				4D8975CE22FEEBB20033AC9B /* 14_Patterns_MVVMUITests */,
+				4D8975AC22FEEBB10033AC9B /* 15_Patterns_Protocols */,
+				4D8975C322FEEBB20033AC9B /* 15_Patterns_ProtocolsTests */,
+				4D8975CE22FEEBB20033AC9B /* 15_Patterns_ProtocolsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -318,6 +329,7 @@
 				4D8975B122FEEBB10033AC9B /* AppDelegate.swift in Sources */,
 				4D8975ED22FEF0660033AC9B /* ViewModel.swift in Sources */,
 				4D5C4A1A2302D3B200E42F48 /* TaskCell.swift in Sources */,
+				4DDCDBFA2305358D00D2688B /* CellRepresentable.swift in Sources */,
 				4D8975B922FEEBB10033AC9B /* _4_Patterns_MVVM.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,12 +355,12 @@
 /* Begin PBXTargetDependency section */
 		4D8975C622FEEBB20033AC9B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4D8975AC22FEEBB10033AC9B /* 14_Patterns_MVVM */;
+			target = 4D8975AC22FEEBB10033AC9B /* 15_Patterns_Protocols */;
 			targetProxy = 4D8975C522FEEBB20033AC9B /* PBXContainerItemProxy */;
 		};
 		4D8975D122FEEBB20033AC9B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4D8975AC22FEEBB10033AC9B /* 14_Patterns_MVVM */;
+			target = 4D8975AC22FEEBB10033AC9B /* 15_Patterns_Protocols */;
 			targetProxy = 4D8975D022FEEBB20033AC9B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -542,7 +554,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/14_Patterns_MVVM.app/14_Patterns_MVVM";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/15_Patterns_Protocols.app/15_Patterns_Protocols";
 			};
 			name = Debug;
 		};
@@ -563,7 +575,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/14_Patterns_MVVM.app/14_Patterns_MVVM";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/15_Patterns_Protocols.app/15_Patterns_Protocols";
 			};
 			name = Release;
 		};
@@ -610,7 +622,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4D8975A822FEEBB10033AC9B /* Build configuration list for PBXProject "14_Patterns_MVVM" */ = {
+		4D8975A822FEEBB10033AC9B /* Build configuration list for PBXProject "15_Patterns_Protocols" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D8975D622FEEBB20033AC9B /* Debug */,
@@ -619,7 +631,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D8975D822FEEBB20033AC9B /* Build configuration list for PBXNativeTarget "14_Patterns_MVVM" */ = {
+		4D8975D822FEEBB20033AC9B /* Build configuration list for PBXNativeTarget "15_Patterns_Protocols" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D8975D922FEEBB20033AC9B /* Debug */,
@@ -628,7 +640,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D8975DB22FEEBB20033AC9B /* Build configuration list for PBXNativeTarget "14_Patterns_MVVMTests" */ = {
+		4D8975DB22FEEBB20033AC9B /* Build configuration list for PBXNativeTarget "15_Patterns_ProtocolsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D8975DC22FEEBB20033AC9B /* Debug */,
@@ -637,7 +649,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D8975DE22FEEBB20033AC9B /* Build configuration list for PBXNativeTarget "14_Patterns_MVVMUITests" */ = {
+		4D8975DE22FEEBB20033AC9B /* Build configuration list for PBXNativeTarget "15_Patterns_ProtocolsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D8975DF22FEEBB20033AC9B /* Debug */,

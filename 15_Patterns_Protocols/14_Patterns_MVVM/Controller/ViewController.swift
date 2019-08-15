@@ -11,8 +11,10 @@ import UIKit
 class ViewController: UIViewController {
 
     // viewModel is refactored into data using protocols
-    var data: CellRepresentable = [CellRepresentable]()
+    var data: [CellRepresentable] = [CellRepresentable]()
  
+    let cellId = "TaskCellId"
+    
     lazy var tableView: UITableView = {
         let view = UITableView()
         view.translatesAutoresizingMaskIntoConstraints = false
@@ -39,9 +41,8 @@ class ViewController: UIViewController {
     
     func loadData() {
         let numTasks = 4
-        var dataList: [Task] = []
         for i in 0..<numTasks {
-	    data.apprend(CellRepresentable(task: Task(name: "Task \(i)", createdAt: Date().addingTimeInterval(10.0), isComplete: i % 2 == 0 ? true : false))
+            data.append(ViewModel(task: Task(name: "Task \(i)", createdAt: Date().addingTimeInterval(10.0), isComplete: i % 2 == 0 ? true : false)))
         }
     }
 }
@@ -58,6 +59,6 @@ extension ViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-	return data.cellInstance(_ tableView: tableView, indexPath: indexPath)        
+        return data[indexPath.row].cellInstance(tableView, indexPath: indexPath)
     }
 }
