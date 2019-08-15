@@ -1,7 +1,5 @@
 #  15. Architecture Patterns Model View Controller (MVVM)
 
-the project needs to  be renamed.
-
 ## Overview
 
 In conjunction with the MVVM pattern we can further the existing codebase by applying a Protocol to our viewModels. 
