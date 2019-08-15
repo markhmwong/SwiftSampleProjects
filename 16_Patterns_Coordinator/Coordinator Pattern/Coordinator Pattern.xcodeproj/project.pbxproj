@@ -113,7 +113,7 @@
 			children = (
 				4DDCDBF2230445D800D2688B /* Controller */,
 				4DDCDBEB23041FA800D2688B /* Coordinator */,
-				4DDCDBBA23041F9500D2688B /* AppDelegate.swift */,
+				4DDCDBFB2305400E00D2688B /* App Delegate */,
 				4DDCDBBE23041F9500D2688B /* Main.storyboard */,
 				4DDCDBC423041F9600D2688B /* Assets.xcassets */,
 				4DDCDBC623041F9600D2688B /* LaunchScreen.storyboard */,
@@ -159,6 +159,14 @@
 				4DDCDBF3230521A500D2688B /* DisplayViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		4DDCDBFB2305400E00D2688B /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				4DDCDBBA23041F9500D2688B /* AppDelegate.swift */,
+			);
+			path = "App Delegate";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
