@@ -9,15 +9,14 @@
 import UIKit
 
 class ImageCell: UITableViewCell {
-	
+	let indicator = UIActivityIndicatorView(style: UIActivityIndicatorView.Style.medium)
+
 	var photoDetails: PhotoRecord? {
 		didSet {
 			guard let _photoDetails = photoDetails else { return }
 			textLabel?.text = _photoDetails.author
 			photoOperations?(_photoDetails)
-			
 			if accessoryView == nil {
-				let indicator = UIActivityIndicatorView(style: UIActivityIndicatorView.Style.medium)
 				accessoryView = indicator
 				indicator.startAnimating()
 			}
@@ -91,6 +90,7 @@ class ImageCell: UITableViewCell {
 	
 	func updateImage(_ image: UIImage) {
 		DispatchQueue.main.async {
+			self.indicator.stopAnimating()
 			self.photoView.image = image
 		}
 	}
